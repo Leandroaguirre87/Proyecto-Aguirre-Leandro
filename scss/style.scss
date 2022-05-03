@@ -1,11 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "mixins";
+@import "variables";
+@import "resets";
+
 .nav {
   list-style: none;
   .nav__item {
     text-transform: uppercase;
   }
+}
+
+section {
+  @include flexCenter;
 }
