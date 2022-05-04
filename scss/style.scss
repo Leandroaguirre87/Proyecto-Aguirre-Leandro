@@ -10,5 +10,9 @@
 }
 
 section {
-  @include flexCenter;
+  @include flexEnd(center);
+}
+
+footer {
+  @include flexEnd(End);
 }

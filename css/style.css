@@ -11,4 +11,18 @@
   text-transform: uppercase;
 }
 
+section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: center;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: End;
+}
+
 /*# sourceMappingURL=style.css.map */
